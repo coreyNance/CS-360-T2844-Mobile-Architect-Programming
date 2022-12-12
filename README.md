@@ -14,8 +14,6 @@ The goal of the “Lets Race” application is an application that helps the use
 To try and support the user's needs. there neeeded to be screens for users to be able to log in or sign up.  Then a screen for the race tracks to be displayed and the ability to add, edit and remove tracks.  These added features would also have their own screens.  Lastly there needed to be a settings page where the user can opt in or out of SMS text message notifications.  Each screen was developed to accomplish these tasks which in the end will lead to a successful user experience. 
 <br>
 <br>
-
-
 -   How did you approach the process of coding your app? What techniques or strategies did you use? How could those be applied in the future?
 <br>
 <br>
