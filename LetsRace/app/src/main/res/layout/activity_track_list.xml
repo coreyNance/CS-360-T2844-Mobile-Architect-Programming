@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".TrackList">
+
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="614dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="69dp"
+        android:text="Edit Track"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="381dp"
+        android:layout_marginTop="543dp"
+        android:layout_marginBottom="163dp"
+        android:text="RadioButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="381dp"
+        android:layout_marginTop="514dp"
+        android:layout_marginBottom="192dp"
+        android:text="RadioButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="381dp"
+        android:layout_marginTop="489dp"
+        android:layout_marginBottom="217dp"
+        android:text="RadioButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="381dp"
+        android:layout_marginTop="464dp"
+        android:layout_marginBottom="242dp"
+        android:text="RadioButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/track_information4"
+        android:layout_width="133dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="161dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="Track information 4"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/street_Address4"
+        app:layout_constraintTop_toBottomOf="@id/track_information3" />
+
+    <TextView
+        android:id="@+id/track_information3"
+        android:layout_width="133dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="31dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="Track information 3"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@id/track_information4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/street_Address3"
+        app:layout_constraintTop_toBottomOf="@id/track_information2" />
+
+    <TextView
+        android:id="@+id/track_information2"
+        android:layout_width="133dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="31dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="Track information 2"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@id/track_information3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/street_Address2"
+        app:layout_constraintTop_toBottomOf="@id/track_information1" />
+
+    <TextView
+        android:id="@+id/street_Address4"
+        android:layout_width="133dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="161dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="Street Address 4"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/track_information4"
+        app:layout_constraintStart_toEndOf="@id/date_Title4"
+        app:layout_constraintTop_toBottomOf="@id/street_Address3" />
+
+    <TextView
+        android:id="@+id/street_Address3"
+        android:layout_width="133dp"
+        android:layout_height="27dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="Street Address 3"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@id/street_Address4"
+        app:layout_constraintEnd_toStartOf="@id/track_information3"
+        app:layout_constraintStart_toEndOf="@id/date_Title3"
+        app:layout_constraintTop_toBottomOf="@id/street_Address2" />
+
+    <TextView
+        android:id="@+id/street_Address2"
+        android:layout_width="133dp"
+        android:layout_height="27dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="Street Address 2"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@id/street_Address3"
+        app:layout_constraintEnd_toStartOf="@id/track_information2"
+        app:layout_constraintStart_toEndOf="@id/date_Title2"
+        app:layout_constraintTop_toBottomOf="@id/Street_Address1" />
+
+    <TextView
+        android:id="@+id/date_Title3"
+        android:layout_width="107dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="Title and Date 3"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@id/date_Title4"
+        app:layout_constraintEnd_toStartOf="@id/street_Address3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/date_Title2" />
+
+    <TextView
+        android:id="@+id/date_Title4"
+        android:layout_width="107dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="161dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="Title and Date 4"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/street_Address4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/date_Title3" />
+
+    <TextView
+        android:id="@+id/date_Title2"
+        android:layout_width="107dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="Title and Date 2"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@id/date_Title3"
+        app:layout_constraintEnd_toStartOf="@id/street_Address2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/date_Title1" />
+
+    <TextView
+        android:id="@+id/track_information1"
+        android:layout_width="133dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="31dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="Track information 1"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@id/track_information2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/Street_Address1"
+        app:layout_constraintTop_toBottomOf="@id/Track_Summary" />
+
+    <TextView
+        android:id="@+id/Track_Address"
+        android:layout_width="133dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="435dp"
+        android:gravity="center"
+        android:text="Track Address"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/Track_Summary"
+        app:layout_constraintStart_toEndOf="@id/date_Title"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/date_Title1"
+        android:layout_width="107dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="Title and Date 1"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@id/date_Title2"
+        app:layout_constraintEnd_toStartOf="@id/Street_Address1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/date_Title"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <TextView
+        android:id="@+id/Track_Summary"
+        android:layout_width="133dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="435dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="center"
+        android:text="Track Summary"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/Track_Address"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/date_Title"
+        android:layout_width="107dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="435dp"
+        android:gravity="center"
+        android:text="Date/Title"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/Track_Address"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Street_Address1"
+        android:layout_width="133dp"
+        android:layout_height="27dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="Street Address 1"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@id/street_Address2"
+        app:layout_constraintEnd_toStartOf="@id/track_information1"
+        app:layout_constraintStart_toEndOf="@id/date_Title1"
+        app:layout_constraintTop_toBottomOf="@id/Track_Address" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="614dp"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="69dp"
+        android:text="Add Track"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="112dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="618dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="69dp"
+        android:text="Remove"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="325dp"
+        android:layout_height="110dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="619dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Lets Race!!!!!"
+        android:textColor="#ff0000"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="340dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="593dp"
+        android:gravity="center"
+        android:text="List of available track events"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/settingBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="667dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/settings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="279dp"
+        android:layout_height="15dp"
+        android:text="Use side selectors to make track selection"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="579dp" />
+
+    <GridView
+        android:layout_width="409dp"
+        android:layout_height="295dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
