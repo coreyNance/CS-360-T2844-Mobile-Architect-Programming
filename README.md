@@ -21,6 +21,7 @@ To try and support the user's needs. there neeeded to be screens for users to be
 Basically, my approach to coding the app is to code the easiest implementation first.  But with that said it has to go along with the hosing image type of approach I take which is picturing each screen as a room in a house.  Going from screen to screen is like walking from one room to the other.  Understaning this help with needing to understand how the application needs to work.  This type of technique can be easily used in any app development.  The best way to think of it is sometimes a person may want to go from the kitchen to the bathroom, the way they came to the kitchen was from the bedroom, through the living room, and to the kitchen and the bathroom is near the bedroom.  To get to the bathroom, the user may not want to back track through all those other rooms and would rather have a nice direct path from the kitchen to the bathroom.  This can be said for coding too, a user may not want to backtrack through all the screens they visited just to get to the screen of choice. 
 <br>
 <br>
+
 -   How did you test to ensure your code was functional? Why is this process important and what did it reveal?
 <br>
 <br>
